@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="Stylesheet" href="c:\Users\DELL\Desktop\My Projects\My form\css\Style.Css">       
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <h1>Sign Up form</h1>
+</head>
+<body>
+    <Form align="right">
+        <fieldset>
+      <legend>My Form</legend>
+        <div>
+        <label for="Enter Your Name">Enter your Name
+        </label>
+        <input type="text" placeholder="Enter Your Name" Value="Name" id="Name">
+        </div>
+        <br>
+        <div>
+            <label for="Enter Last Name">Enter your Last Name</label>
+        <input type="tex" placeholder="Enter Your Last Name" Value="Last Name" id="Last Name">
+        </div>
+        <br>
+        <div>
+            <label for="Enter Your Email">Enter your Email</label>
+            <input type="email" placeholder="Enter Your Email" Value="Email" id="Email">
+        </div>
+        <br>
+        <div>
+            <label for="Enter Your Password">Enter Your Password</label>
+            <input type="password" placeholder="Enter Your Password" Value="Email" id="Email">
+        </div>
+        <br>
+        <div>
+            <label for="Birth date">Enter your birth date</label>
+            <input type="date" value="date" id="date">
+        </div>
+        <br>
+        <div>
+            <input type="time" value="time" id="time">
+        </div>
+        <br>
+        <div>
+            <label for="Id proof">Upload your id proof</label>
+            <input type="file" value="file" id="file">
+        </div>
+        
+        <br>
+        <div>
+            <a href="c:\Users\DELL\Downloads\Invoice (3) (1).pdf" download></a>
+        </div>
+        <div>
+            <input type ="button" value="Button" id="button">
+        </div>
+        <div>
+            <label for="cars">Choose a car:</label>
+            <select  name="cars" id="cars">
+              <optgroup label="Swedish Cars">
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+              </optgroup>
+              <optgroup label="German Cars">
+                <option value="mercedes">Mercedes</option>
+                <option value="audi">Audi</option>
+              </optgroup>
+            </select>
+             </div>
+             <canvas id="myCanvas">
+                Your browser does not support the canvas tag.
+                </canvas>
+                
+                <script>
+                let canvas = document.getElementById("myCanvas");
+                let ctx = canvas.getContext("2d");
+                ctx.fillStyle = "#FF0000";
+                ctx.fillRect(10, 50, 85, 89);
+                </script>
+                
+        </Form>
+        </fieldset>
+         
+</body>
+
+</html>

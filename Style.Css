@@ -1,0 +1,23 @@
+body 
+{
+	background-color:aqua
+}
+label
+{
+	background-color: rgb(233, 86, 130);
+}
+h1
+{
+	background-color: antiquewhite;
+}
+
+h1 
+{
+	color: rgb(242, 153, 9);
+	font-size: 35px;
+
+	font-weight: bold;
+	font-style: normal;
+	text-align: center;
+	text-decoration: none;
+}
